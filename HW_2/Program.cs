@@ -1,7 +1,5 @@
 ﻿// Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
-//Console.Clear();
-//int RandomDigit = new Random().Next(100,999); // случайное число от 100 до 999
-//Console.WriteLine("Случайное 3-х значное число:" +RandomDigit); // вывод на консоль случайного 3-х значного числа
+
 Console.Clear();
 int random = new Random().Next(100,1000);
 int result = (random / 10) % 10;
@@ -19,5 +17,17 @@ Console.WriteLine(random + " -> "+ result);
     Console.WriteLine(number%10);
  }
 
+
+
+
+
  /// Напишите программу, которая принимает на вход цифру, обозначающую день недели,
  /// и проверяет, является ли этот день выходным.
+
+Console.Clear();
+Console.WriteLine("Введите день недели от 1 до 7 = " );
+int day =  int.Parse(Console.ReadLine());
+
+if (( day < 5 ) && ( day > 0 )) Console.WriteLine("Данный день недели не является выходным днем");
+
+else (( day == 6 ) || ( day == 7 )) Console.WriteLine("Данный день недели является выходным днем");
