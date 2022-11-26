@@ -6,6 +6,7 @@ int result = (random / 10) % 10;
 Console.WriteLine(result);
 Console.WriteLine(random + " -> "+ result);
 
+
  // Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
  Console.Clear();
  Console.Write("Введите число =  " );
@@ -18,13 +19,10 @@ Console.WriteLine(random + " -> "+ result);
  }
 
 
-
-
-
  /// Напишите программу, которая принимает на вход цифру, обозначающую день недели,
  /// и проверяет, является ли этот день выходным.
 Console.Clear();
-Console.WriteLine("Введите день недели от 1 до 7 = " );
+Console.WriteLine("Введите день недели от 1 до 7" );
 int day =  int.Parse(Console.ReadLine());
 if (( day < 5 ) && ( day > 0 )) Console.WriteLine("Данный день недели не является выходным днем");
 else 
