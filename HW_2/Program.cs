@@ -18,10 +18,9 @@ Console.WriteLine(random + " -> "+ result);
     Console.WriteLine(number%10);
  }
 
-
  /// Напишите программу, которая принимает на вход цифру, обозначающую день недели,
  /// и проверяет, является ли этот день выходным.
- 
+
 Console.Clear();
 Console.WriteLine("Введите день недели от 1 до 7" );
 int day =  int.Parse(Console.ReadLine());
