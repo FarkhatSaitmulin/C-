@@ -33,21 +33,13 @@ int z1 = DataEntryXY("Введите координаты z1 = ");
 int x2 = DataEntryXY("Введите координаты x2 = ");
 // Console.WriteLine(x2);
 int y2 = DataEntryXY("Введите координаты y2 = ");
-// Console.WriteLine(y2);
+// Console.WriteLine(y2) 
 int z2 = DataEntryXY("Введите координаты z2 = ");
 // Console.WriteLine(z2);
 
 double tochki = RASTOYNIE(x1, x2, y1, y2, z1, z2);
 
 Console.WriteLine(tochki);
-
-
-// Задача 23
-// Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
-// 3 -> 1, 8, 27; 5 -> 1, 8, 27, 64, 125
-
-
-
 
 
 

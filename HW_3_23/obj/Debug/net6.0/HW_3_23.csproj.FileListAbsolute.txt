@@ -1,0 +1,5 @@
+X:\HW_C_shar\HW_3_23\obj\Debug\net6.0\HW_3_23.csproj.AssemblyReference.cache
+X:\HW_C_shar\HW_3_23\obj\Debug\net6.0\HW_3_23.GeneratedMSBuildEditorConfig.editorconfig
+X:\HW_C_shar\HW_3_23\obj\Debug\net6.0\HW_3_23.AssemblyInfoInputs.cache
+X:\HW_C_shar\HW_3_23\obj\Debug\net6.0\HW_3_23.AssemblyInfo.cs
+X:\HW_C_shar\HW_3_23\obj\Debug\net6.0\HW_3_23.csproj.CoreCompileInputs.cache
