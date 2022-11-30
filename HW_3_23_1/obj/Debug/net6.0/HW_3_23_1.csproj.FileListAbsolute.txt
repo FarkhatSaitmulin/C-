@@ -1,0 +1,15 @@
+X:\HW_C_shar\HW_3_23_1\obj\Debug\net6.0\HW_3_23_1.csproj.AssemblyReference.cache
+X:\HW_C_shar\HW_3_23_1\obj\Debug\net6.0\HW_3_23_1.GeneratedMSBuildEditorConfig.editorconfig
+X:\HW_C_shar\HW_3_23_1\obj\Debug\net6.0\HW_3_23_1.AssemblyInfoInputs.cache
+X:\HW_C_shar\HW_3_23_1\obj\Debug\net6.0\HW_3_23_1.AssemblyInfo.cs
+X:\HW_C_shar\HW_3_23_1\obj\Debug\net6.0\HW_3_23_1.csproj.CoreCompileInputs.cache
+X:\HW_C_shar\HW_3_23_1\bin\Debug\net6.0\HW_3_23_1.exe
+X:\HW_C_shar\HW_3_23_1\bin\Debug\net6.0\HW_3_23_1.deps.json
+X:\HW_C_shar\HW_3_23_1\bin\Debug\net6.0\HW_3_23_1.runtimeconfig.json
+X:\HW_C_shar\HW_3_23_1\bin\Debug\net6.0\HW_3_23_1.dll
+X:\HW_C_shar\HW_3_23_1\bin\Debug\net6.0\HW_3_23_1.pdb
+X:\HW_C_shar\HW_3_23_1\obj\Debug\net6.0\HW_3_23_1.dll
+X:\HW_C_shar\HW_3_23_1\obj\Debug\net6.0\refint\HW_3_23_1.dll
+X:\HW_C_shar\HW_3_23_1\obj\Debug\net6.0\HW_3_23_1.pdb
+X:\HW_C_shar\HW_3_23_1\obj\Debug\net6.0\HW_3_23_1.genruntimeconfig.cache
+X:\HW_C_shar\HW_3_23_1\obj\Debug\net6.0\ref\HW_3_23_1.dll

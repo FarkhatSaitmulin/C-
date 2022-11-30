@@ -4,17 +4,17 @@
 
 Console.Clear();
 
-void POW3(string str);
+void TablePOW2(string str);
 {
     Console.WriteLine(str);
     int number = int.Parse(Console.ReadLine()); 
     int count =1;
     while (count<= number)
     {
-        int pow3 = count*count*count;
-        Console.Write(Pow3 + " ");
+        int pow = count*count;
+        Console.Write(pow + " ");
         count++;
     }
- Console.WriteLine();
+    Console.WriteLine();
 }
-Pow3 ("Введите число N: ");
+TablePOW2 ("Введите число N: ");
