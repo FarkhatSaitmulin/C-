@@ -2,18 +2,21 @@
 // Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
 // 14212 -> нет, 12821 -> да,  23432 -> да.
 
-void TablePOW2(string str)
+Console.Clear();
+
+Console.WriteLine("Введите пятизначное число: ");
+
+int number = int.Parse(Console.ReadLine());
+
+void Polindrome(string str)
 {
     Console.WriteLine(str);
-    int number = int.Parse(Console.ReadLine());
-    int count = 1;
-    while (count <= number)
-    {
-        int pow = count * count;
-        Console.Write(pow + " ");
-        count++;
-    }
+    int ostatok = number/1000;
+    int ostatok1 = number%100;
+    int ostatok2 = (ostatok1 % 10) * 10 + (ostatok1/10);
+    if (ostatok == ostatok2) Console.WriteLine ($"число {number} является полиндромом ");
+    else Console.WriteLine ($"число {number} не является полиндромом ");
     Console.WriteLine();
 }
-Console.Clear();
-TablePOW2("Введите число N: ");
+
+Polindrome ("Проверяем является ли число полиндромным: ");
