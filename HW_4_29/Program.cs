@@ -14,7 +14,7 @@ int []FillArray(int [] array)
     int Length = array.Length;
     for ( i = 0; i < Length; i++); 
     {
-        array[i] = newRandom().Next(0,7);
+        array[i] = new int(8).Next(1,100);
     }
     return array;
 }
@@ -29,7 +29,7 @@ void PrintArray(int[] col)
     }
 }
 
-int NumberN = DataInput("Введите число: ");
+int NumbersN = DataInput("Введите числа: ");
 int [] array = new int[NumberN];
 array = FillArray(array);
-PrintArray(array);
+PrintArray(array); 
