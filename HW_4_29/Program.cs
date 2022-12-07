@@ -2,34 +2,21 @@
 // 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 // 6, 1, 33 -> [6, 1, 33]
 
-int DataInput (string str)
-{
-    Console.Write(str);
-    int number = int.Parse(Console.ReadLine());
-    return number;
-}
+const int SIZE = 8;
+const int LEFT_RANGE = -8;
+const int RIGHT_RANGE = 100;
 
-int []FillArray(int [] array)
+int[] array = new int[SIZE];
+
+int[] FillArray(int size, int leftRange, int rightRange)
 {
-    int Length = array.Length;
-    for ( i = 0; i < Length; i++); 
+    Random rand = new Random();
+    int[] arr = new int[size];
+    for (int i = 0; i < arr.Length; i++)
     {
-        array[i] = new int(8).Next(1,100);
+        arr[i] = rand.Next(leftRange, rightRange + 1);   // (0 до 100)
     }
-    return array;
+    return arr;
 }
-
-void PrintArray(int[] col)
-{
-    int count = col.Length;
-    int i;
-    for (i = 0; i < count; i++)
-    {
-        Console.Write(col[i] + " ");
-    }
-}
-
-int NumbersN = DataInput("Введите числа: ");
-int [] array = new int[NumberN];
-array = FillArray(array);
-PrintArray(array); 
+array = FillArray (SIZE,LEFT_RANGE,RIGHT_RANGE);
+Console.WriteLine ('[' + string.Join("; ", array) + ']');
