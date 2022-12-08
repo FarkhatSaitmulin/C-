@@ -11,7 +11,7 @@ int[] array = new int [SIZE];
 
 int[] FillArray(int size, int leftRange, int rightRange)
 {
-    Random rand = new Random();
+    Random rand = new Random(); // Random = класс, rand = экземпляр класса
     int[] arr = new int [size];
     for (int i = 0; i < arr.Length; i++)
     {
@@ -20,20 +20,20 @@ int[] FillArray(int size, int leftRange, int rightRange)
     return arr;
 }
 
-int[] Evennumbersinarray(int []arr, int Evenarr)
+int Evennumbersinarray(int []arr)
 {
-    Evenarr = 0;
-    array[i] = number[i]
+    int count = 0;
     for (int i = 0; i < arr.Length; i++)
     {
-        if (arr[i] > 0)
+        if ((arr[i] % 2) == 0)
         {
-        Evenarr  = (number %2==o);
+            //Console.Write(arr[i] + " ");
+            count++;
         }
     }
-    return arr;
+    return count;
 }
 array = FillArray(SIZE, LEFT_RANGE, RIGHT_RANGE);
 Console.WriteLine('[' + string.Join("; ", array) + ']');
-Evennumbersinarray(array, Evenarr);
-System.Console.WriteLine($"Сумма четных чисел = {Evenarr}");
+int numberOfEven = Evennumbersinarray(array);
+System.Console.WriteLine($"Сумма четных чисел = {numberOfEven}");
