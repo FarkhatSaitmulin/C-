@@ -7,12 +7,12 @@
 const int SIZE = 4;
 const int LEFT_RANGE = 100;
 const int RIGHT_RANGE = 1000;
-int[] array = new int [SIZE];
+int[] array = new int[SIZE];
 
 int[] FillArray(int size, int leftRange, int rightRange)
 {
     Random rand = new Random(); // Random = класс, rand = экземпляр класса
-    int[] arr = new int [size];
+    int[] arr = new int[size];
     for (int i = 0; i < arr.Length; i++)
     {
         arr[i] = rand.Next(leftRange, rightRange);   // (100;999)
@@ -20,7 +20,7 @@ int[] FillArray(int size, int leftRange, int rightRange)
     return arr;
 }
 
-int Evennumbersinarray(int []arr)
+int Evennumbersinarray(int[] arr)
 {
     int count = 0;
     for (int i = 0; i < arr.Length; i++)
