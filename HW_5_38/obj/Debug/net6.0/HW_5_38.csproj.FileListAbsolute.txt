@@ -1,0 +1,15 @@
+X:\HW_C_shar\HW_5_38\bin\Debug\net6.0\HW_5_38.exe
+X:\HW_C_shar\HW_5_38\bin\Debug\net6.0\HW_5_38.deps.json
+X:\HW_C_shar\HW_5_38\bin\Debug\net6.0\HW_5_38.runtimeconfig.json
+X:\HW_C_shar\HW_5_38\bin\Debug\net6.0\HW_5_38.dll
+X:\HW_C_shar\HW_5_38\bin\Debug\net6.0\HW_5_38.pdb
+X:\HW_C_shar\HW_5_38\obj\Debug\net6.0\HW_5_38.csproj.AssemblyReference.cache
+X:\HW_C_shar\HW_5_38\obj\Debug\net6.0\HW_5_38.GeneratedMSBuildEditorConfig.editorconfig
+X:\HW_C_shar\HW_5_38\obj\Debug\net6.0\HW_5_38.AssemblyInfoInputs.cache
+X:\HW_C_shar\HW_5_38\obj\Debug\net6.0\HW_5_38.AssemblyInfo.cs
+X:\HW_C_shar\HW_5_38\obj\Debug\net6.0\HW_5_38.csproj.CoreCompileInputs.cache
+X:\HW_C_shar\HW_5_38\obj\Debug\net6.0\HW_5_38.dll
+X:\HW_C_shar\HW_5_38\obj\Debug\net6.0\refint\HW_5_38.dll
+X:\HW_C_shar\HW_5_38\obj\Debug\net6.0\HW_5_38.pdb
+X:\HW_C_shar\HW_5_38\obj\Debug\net6.0\HW_5_38.genruntimeconfig.cache
+X:\HW_C_shar\HW_5_38\obj\Debug\net6.0\ref\HW_5_38.dll

@@ -13,7 +13,7 @@ int[] Fillarray(int size, int leftRange, int rightRange)
     int[] arr = new int[size];
     for (int i = 0; i < arr.Length; i++)
     {
-        arr[i] = rand.Next(leftRange, rightRange);   // (-1000;1000)
+        arr[i] = rand.Next(leftRange, rightRange);   // (-1000;1000) также можно указать Next(-1000, 1000)
     }
     return arr;
 }
