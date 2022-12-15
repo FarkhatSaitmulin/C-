@@ -15,7 +15,7 @@ int[,] EnterMassif(int rows, int columns, int leftRange, int rightRange)
     {
         for (int j = 0; j < columns; j++)
         {
-            array[i, j] = new Random().Next(leftRange + rightRange);
+            array[i, j] = new Random().Next(leftRange,rightRange);
         }
     }
     return array;
