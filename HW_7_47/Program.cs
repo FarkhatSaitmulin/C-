@@ -8,6 +8,8 @@ m = 3, n = 4.
 
 8 7,8 -7,1 9 */
 
+Console.Clear();
+
 void ShowArray(double[,] arr)
 {
     for (int i = 0; i < arr.GetLength(0); i++)
