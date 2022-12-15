@@ -8,10 +8,6 @@ m = 3, n = 4.
 
 8 7,8 -7,1 9 */
 
-
-
-// Console.WriteLine("Hello, World!");
-
 void ShowArray(double[,] arr)
 {
     for (int i = 0; i < arr.GetLength(0); i++)
@@ -43,7 +39,7 @@ int EnterNumber(string message)
     int number = int.Parse(System.Console.ReadLine());
     return number;
 }
-// Получить от пользователя M и N
+// Получить от пользователя "m" и "n"
 
 int m = EnterNumber("Введите значение m: ");
 

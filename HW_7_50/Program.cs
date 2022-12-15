@@ -49,7 +49,7 @@ bool SearchNumber(int[,] arr, int number)
         {
             if (arr[i, j] == number)
             {
-                System.Console.WriteLine($"Позиция искомого элемента - [{i},{j}]");
+                System.Console.WriteLine($"Позиция искомого элемента в массиве - [{i},{j}]");
                 return true;
             }
         }
