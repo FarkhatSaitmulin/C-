@@ -21,7 +21,7 @@ int[,] EnterMassif(int rows, int columns, int leftRange, int rightRange)
     return array;
 }
 
-void ShowArray (int[,] array)
+void ShowArray(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
@@ -33,8 +33,8 @@ void ShowArray (int[,] array)
     }
 }
 
-int[,] matrix = EnterMassif (3, 5, 0, 10);
-ShowArray (matrix);
+int[,] matrix = EnterMassif(3, 5, 0, 10);
+ShowArray(matrix);
 
 double sum = 0;
 for (int i = 0; i < matrix.GetLength(1); i++)

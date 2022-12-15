@@ -12,17 +12,17 @@ m = 3, n = 4.
 
 // Console.WriteLine("Hello, World!");
 
-void ShowArray(double[,] arr) 
-{ 
-    for (int i = 0; i < arr.GetLength(0); i++) 
-    { 
-        for (int j = 0; j < arr.GetLength(1); j++) 
-        { 
-            System.Console.Write(arr[i, j] + "  "); 
-        } 
-        System.Console.WriteLine(); 
-    } 
-}  
+void ShowArray(double[,] arr)
+{
+    for (int i = 0; i < arr.GetLength(0); i++)
+    {
+        for (int j = 0; j < arr.GetLength(1); j++)
+        {
+            System.Console.Write(arr[i, j] + "  ");
+        }
+        System.Console.WriteLine();
+    }
+}
 
 double[,] CreateArray(int rows, int columns)
 {
@@ -31,7 +31,7 @@ double[,] CreateArray(int rows, int columns)
     {
         for (int j = 0; j < columns; j++)
         {
-            array[i, j] = Math.Round(new Random().Next(10) + new Random().NextDouble(),2);
+            array[i, j] = Math.Round(new Random().Next(10) + new Random().NextDouble(), 2);
         }
     }
     return array;
