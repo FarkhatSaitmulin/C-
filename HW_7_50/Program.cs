@@ -54,7 +54,7 @@ bool SearchNumber(int[,] arr, int number)
             }
         }
     }
-    System.Console.WriteLine("Искомого элемента в массиве не найдено");
+    System.Console.WriteLine("Искомого элемента в массиве не найдено"); 
     return false;
 }
 
