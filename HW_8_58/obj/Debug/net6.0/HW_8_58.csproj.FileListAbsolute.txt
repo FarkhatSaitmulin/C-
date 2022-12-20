@@ -1,0 +1,15 @@
+X:\HW_C_shar\HW_8_58\bin\Debug\net6.0\HW_8_58.exe
+X:\HW_C_shar\HW_8_58\bin\Debug\net6.0\HW_8_58.deps.json
+X:\HW_C_shar\HW_8_58\bin\Debug\net6.0\HW_8_58.runtimeconfig.json
+X:\HW_C_shar\HW_8_58\bin\Debug\net6.0\HW_8_58.dll
+X:\HW_C_shar\HW_8_58\bin\Debug\net6.0\HW_8_58.pdb
+X:\HW_C_shar\HW_8_58\obj\Debug\net6.0\HW_8_58.csproj.AssemblyReference.cache
+X:\HW_C_shar\HW_8_58\obj\Debug\net6.0\HW_8_58.GeneratedMSBuildEditorConfig.editorconfig
+X:\HW_C_shar\HW_8_58\obj\Debug\net6.0\HW_8_58.AssemblyInfoInputs.cache
+X:\HW_C_shar\HW_8_58\obj\Debug\net6.0\HW_8_58.AssemblyInfo.cs
+X:\HW_C_shar\HW_8_58\obj\Debug\net6.0\HW_8_58.csproj.CoreCompileInputs.cache
+X:\HW_C_shar\HW_8_58\obj\Debug\net6.0\HW_8_58.dll
+X:\HW_C_shar\HW_8_58\obj\Debug\net6.0\refint\HW_8_58.dll
+X:\HW_C_shar\HW_8_58\obj\Debug\net6.0\HW_8_58.pdb
+X:\HW_C_shar\HW_8_58\obj\Debug\net6.0\HW_8_58.genruntimeconfig.cache
+X:\HW_C_shar\HW_8_58\obj\Debug\net6.0\ref\HW_8_58.dll
