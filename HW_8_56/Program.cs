@@ -51,9 +51,6 @@ for (int i = 1; i < array.GetLength(0); i++)
     }
 }
 
-Console.WriteLine($"\n{minSumRows + 1} - строкa с наименьшей суммой ({sumRows}) элементов ");
-
-
 int SmallSumElements(int[,] array, int i)
 {
     int sumRows = array[i, 0];
@@ -77,3 +74,4 @@ void PrintArray(int[,] array)
 }
 
 PrintArray(array);
+Console.WriteLine($"\n{minSumRows + 1} - строкa с наименьшей суммой ({sumRows}) элементов ");
