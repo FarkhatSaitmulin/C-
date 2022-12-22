@@ -3,6 +3,7 @@
 // 3 -> 1, 8, 27; 5 -> 1, 8, 27, 64, 12
 
 Console.Clear();
+
 void pow3()
 {
 Console.WriteLine("Введите число N: ");
