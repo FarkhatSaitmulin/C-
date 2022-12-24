@@ -13,7 +13,7 @@ int DataNumber(string message)
 int Sum(int leftNum, int rightNum)
 {
     if (leftNum == rightNum) return leftNum;
-    return rightNum + Sum(leftNum, rightNum - 1);  // 2 до 5, 5 + (4+(3+(2)))
+    return rightNum + Sum(leftNum, rightNum - 1);  // 4 до 8, 8+ 4,8-1=7) 4,7-1=6) 4,6-1=5) 4,5-1=4) 4=4 ))))
 }
 
 Console.Clear();
